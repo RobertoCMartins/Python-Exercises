@@ -1,7 +1,7 @@
 import math
 
 # Método que calcula Raiz Quadrada
-a = float(input("Digite um número: "))
+a = 125
 raizQuadrada = math.sqrt(a)
 print(f'A raiz quadrada de {a:.2f} é = {raizQuadrada:.2f}')
 

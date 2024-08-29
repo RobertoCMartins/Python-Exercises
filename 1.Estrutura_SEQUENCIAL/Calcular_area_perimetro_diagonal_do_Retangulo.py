@@ -1,12 +1,12 @@
-# Calcular a Area de um Retangulo
+# Calcular a Area, Perimetro e Diagonal de um Retangulo
 
 #Importando módulo matemático
 import math
 
 base: float; altura: float; area: float; perimetro: float; diagonal: float
 
-base = float(input("Base do retangulo: "))
-altura = float(input("Altura do retangulo: "))
+base = float(input("Digite a base do retângulo: "))
+altura = float(input("Digite a altura do retângulo: "))
 
 area = base * altura
 perimetro = 2 * (base + altura)
